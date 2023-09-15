@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>icosaidriumDocs</title>
+</head>
+
+<body class="page">
+    <header class="header Box__shadow">
+        <img src="./assets/images/icosaidrium.png" alt="icosaidrium apk logo" id="icosaidrium">
+        <h1 class="title" id="title">Icosaidrium</h1>
+        <nav class="nav">
+            <ul class="nav__menu">
+                <li class="nav__menu_item">
+                    <a class="nav__link" href="https://github.com/OFT-OrangeFoxTeam/icosaidrium/releases/tag/icosaidrium%7C24x07b%7Cmoon">Get Icosaidrium</a>
+                </li>
+                <li class="nav__menu_item">
+                    <a class="nav__link" href="https://discord.gg/3QWgYFjHe2">Discord server</a>
+                </li>
+                <li class="nav__menu_item">
+                    <a class="nav__link" href="https://github.com/OFT-OrangeFoxTeam/icosaidrium">Source code</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="article Box__shadow">
+            <h2 class="subtitle">What is the icosaidrium?</h2>
+            <p class="text">
+                The icosaidrium is a map editor from all devices
+                avaliable in germany, portuguese (BR),
+                englsh (EUA), fanch and spansh, 
+                was devloped to help to help designers and devlopers to make maps.
+            </p>
+        </article>
+        <article class="article Box__shadow">
+            <h2 class="title">Features</h2>
+            <ul class="table">
+                <li>Works in alls devices</li>
+                <li>Is fast and not takes much space</li>
+                <li>Avaliable in five languages</li>
+                <li>Costumizable</li>
+                <li>Simple use</li>
+            </ul>
+        </article>
+        <article class="article Box__shadow">
+            <h2 class="title">Getting started</h2>
+            <h3 class="subtitle">How to create a new map?</h3>
+            <p class="text">
+                To create a new map just enter on the apk and click in <span class="button">"Map"</span> 
+                after click in <span class="button">"New / Load Map"</span> and insert the map name and the grid size, 
+                if the map exists its will load it else it will create a new empety map to you.
+            </p>
+            <h3 class="subtitle">How to insert my tileset?</h3>
+            <p class="text">
+                After create your map you need insert a tileset right? to do it go 
+                to the file in your system that matches with <span class="file">'android/data/org.icosaidrium/maps/(your map name)/tileset'</span> 
+                and insert your <span class="file">'tileset.png'</span> and <span class="file">'tileset.json'</span> with this same
+                name and extension type.
+            </p>
+            <h3 class="subtitle">How to render my map in my game?</h3>
+            <p class="text">
+                Now you finish your map and need render it in your game, do it is simple
+                go to the map on icosaidrium files 
+                <span class="file">'android/data/org.icosaidrium/maps/(your map name)'</span>,
+                copy the file <span class="file">'mapbatch.json'</span> to the game project and use the icosaidrium
+                parser:
+                <a class="article__link" href="#">Icosaidrium parser</a>
+            </p>
+        </article>
+        <article class="article Box__shadow">
+            <h2 class="title">Buttons (mobile only)</h2>
+            <ul class="table">
+                <li><span class="mark">M:</span> Enable move screen mode</li>
+                <li><span class="mark">S:</span> Save the map</li>
+                <li><span class="mark">B And N:</span> Remove or adds id on the object id</li>
+                <li><span class="mark">R:</span> Rotate the block</li>
+                <li><span class="mark">Y and Z:</span> Undo and redo</li>
+                <li><span class="mark">V and H:</span> Mirror in the vertical and horizontal</li>
+                <li><span class="mark">T:</span> Enable the layer editor mode</li>
+                <li><span class="mark">Alt:</span> Change the mode (clicks multiples times to change the mode)</li>
+                <li><span class="mark">Backspace:</span> Enable you eraser blocks or objects (click multiples times to change the mode)</li>
+                <li><span class="mark">T + Backspace:</span> Delete all the layer</li>
+                <li><span class="mark">Esc:</span> Back to main menu</li>
+            </ul>
+        </article>
+    </main>
+    <footer class="footer Box__shadow">
+        <h2>OFT-Orange Fox Team</h2>
+        <img src="./assets/images/oft.png" alt="oft organization logo">
+        <h3>Created with <img src="./assets/images/heart.png" alt="heart"> by Foxy.</h3>
+        <p class="author">&copy; copyright 2023</p>
+    </footer>
+</body>
+
+</html>

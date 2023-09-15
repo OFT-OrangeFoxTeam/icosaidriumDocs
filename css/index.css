@@ -1,0 +1,114 @@
+.page {
+  background-color: #92C3D6;
+  color: #ffffff;
+  font-family: Comic Sans MS;
+}
+
+.header {
+  text-align: center;
+  background-color: #929ED6;
+  /*border-radius: 15px;*/
+  margin-bottom: 32px;
+  box-shadow: 12px, 12px, #000000;
+}
+
+.nav__menu {
+  margin-left: -2px;
+  padding: 0px;
+}
+
+.nav__menu_item {
+  display: inline;
+  padding: 0 3px 0 3px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav__link:hover {
+    color: orangered;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AECBEE;
+    border-style: solid;
+    border-color: #000;
+    margin-top: 16px;
+    text-align: center;
+    box-shadow: 16px, 16px, #000;
+    margin: 50px 0 0 0;
+}
+
+.article__link {
+    color: orangered;
+}
+
+.subtitle {
+    padding-top: 16px;
+}
+
+.button {
+    color: #cecb3e;
+}
+
+.file {
+    color: #000000;
+    background-color: #757891;
+}
+
+.footer {
+    background-color: #AEA8F7;
+    text-align: center;
+    margin-top: 32px;
+    padding-top: 16px;
+    /*border-radius: 15px;*/
+    box-shadow: -16px, -16px;
+}
+
+.nav__menu {
+    padding: 20px;
+}
+
+.table {
+    list-style: none;
+    padding: 0px;
+}
+
+.Box__shadow {
+    box-shadow: 12px 12px #000000;
+}
+
+.nav__menu_item {
+    margin: 0 0 50px -2px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sub {
+    color: red;
+    font-size: 60px;
+}
+
+.text {
+    width: 80%;
+}
+
+.author {
+    padding-bottom: 20px;
+}
+
+.mark {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#icosaidrium {
+    margin-top: 16px;
+    width: 96px;
+    height: 96px;
+}
