@@ -53,11 +53,11 @@
     padding-top: 16px;
 }
 
-.button {
-    color: #cecb3e;
+.span__map {
+    color: #e6e214;
 }
 
-.file {
+.span__file {
     color: #000;
     background-color: #757891;
 }
@@ -103,7 +103,7 @@
     padding-bottom: 20px;
 }
 
-.mark {
+.span__mark {
     font-weight: bold;
     font-size: 20px;
 }
