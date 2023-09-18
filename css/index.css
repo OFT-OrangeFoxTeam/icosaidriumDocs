@@ -1,6 +1,6 @@
 .page {
   background-color: #92C3D6;
-  color: #ffffff;
+  color: #fff;
   font-family: Comic Sans MS;
 }
 
@@ -9,7 +9,7 @@
   background-color: #929ED6;
   /*border-radius: 15px;*/
   margin-bottom: 32px;
-  box-shadow: 12px, 12px, #000000;
+  box-shadow: 12px, 12px, #000;
 }
 
 .nav__menu {
@@ -35,9 +35,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #AECBEE;
+    background-color: #72a4e0;
     border-style: solid;
     border-color: #000;
+    border-radius: 12px;
     margin-top: 16px;
     text-align: center;
     box-shadow: 16px, 16px, #000;
@@ -57,7 +58,7 @@
 }
 
 .file {
-    color: #000000;
+    color: #000;
     background-color: #757891;
 }
 
