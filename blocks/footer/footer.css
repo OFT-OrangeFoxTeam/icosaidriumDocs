@@ -1,0 +1,8 @@
+.footer {
+  background-color: #aea8f7;
+  text-align: center;
+  margin: 50px 10px 0;
+  padding-top: 16px;
+  /*border-radius: 15px;*/
+  box-shadow: -16px, -16px;
+}

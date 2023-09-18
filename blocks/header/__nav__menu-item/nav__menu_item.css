@@ -1,0 +1,7 @@
+.nav__menu_item {
+  display: inline;
+  padding: 0 3px 0 3px;
+  margin: 0 0 50px -2px;
+  list-style: none;
+  text-decoration: none;
+}
